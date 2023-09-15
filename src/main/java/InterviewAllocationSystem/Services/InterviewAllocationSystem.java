@@ -23,6 +23,7 @@ public class InterviewAllocationSystem {
         this.interviewAllocationInfo = interviewAllocationInfo;
     }
 
+    //to modify to auto allocation
     public void assignInterviewer(Allocation allocationDetails) {
         try {
             Interviewee interviewee = intervieweeManager.getInterviewDetails(allocationDetails.getIntervieweeName());
